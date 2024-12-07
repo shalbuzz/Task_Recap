@@ -12,3 +12,4 @@ C:\Users\user\source\repos\Recap_Task\Recap_Task\obj\Debug\net6.0\refint\Recap_T
 C:\Users\user\source\repos\Recap_Task\Recap_Task\obj\Debug\net6.0\Recap_Task.pdb
 C:\Users\user\source\repos\Recap_Task\Recap_Task\obj\Debug\net6.0\Recap_Task.genruntimeconfig.cache
 C:\Users\user\source\repos\Recap_Task\Recap_Task\obj\Debug\net6.0\ref\Recap_Task.dll
+C:\Users\user\source\repos\Recap_Task\Recap_Task\obj\Debug\net6.0\Recap_Task.sourcelink.json

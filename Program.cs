@@ -138,7 +138,10 @@
                                     throw new NotAvailableException("Capacity cannot be a string or '' ");
                                 }
 
+                                
+
                                 int newEdit = int.Parse(edit);
+
 
 
                             }
@@ -229,11 +232,44 @@
                                         Console.WriteLine($"Error: {ex.Message}");
                                         }
                                         break;
+                                default:
+
+                                    Console.Clear();
+                                    if (string.IsNullOrEmpty(edit) || string.IsNullOrWhiteSpace(edit))
+                                    {
+                                        try
+                                        {
+
+                                            throw new NotAvailableException("Capacity cannot be a string or '' ");
+
+                                        }
+                                        catch (NotAvailableException ex)
+                                        {
+                                            Console.WriteLine($"Error: {ex.Message}");
+                                        }
+                                    }
+                                    else
+                                    {
+                                        try
+                                        {
+
+                                            throw new NotAvailableException("Number must be 8 or 9");
+                                        }
+                                        catch (NotAvailableException ex)
+                                        {
+                                            Console.WriteLine($"Error: {ex.Message}");
+                                        }
+                                    }
+                                       
+                                    
+
+                                    
+                                    break;
 
 
-                                }
-                            
-                        break;
+                            }
+
+                            break;
 
 
                         default:
